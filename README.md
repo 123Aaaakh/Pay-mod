@@ -20,7 +20,7 @@
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 ### Prerequisites
 Ensure your system has the following installed:
