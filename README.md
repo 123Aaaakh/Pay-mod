@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 - **Hexdump Viewer**: Inspect binary contents in hex format with intuitive navigation.
 - **String Manipulation**: Search for ASCII strings within the binary and replace them directly (search & replace).
@@ -17,7 +17,6 @@
 - **MSFVenom Integration**: 
     - Generate payloads (EXE, ELF, etc.) directly from the application menu.
     - List available payloads from the Metasploit Framework.
-- **Dark Mode UI**: A modern terminal interface built with `prompt_toolkit`.
 
 ---
 
@@ -83,7 +82,7 @@ If you want to change specific instructions (e.g., changing a `syscall` to a `no
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```text
 paymod/
 ├── main.py              # Application entry point
@@ -92,12 +91,12 @@ paymod/
 │       ├── core.py      # Core binary manipulation logic
 │       ├── analyzer.py  # Radare2 wrapper
 │       ├── handler.py   # MSFVenom wrapper
-│       ├── ui.py        # TUI interface (Prompt Toolkit)
-│       └── utils.py     # Utility functions (hexdump, info)
+│       ├── ui.py        # TUI interface
+│       └── utils.py     # Utility functions
 └── requirements.txt     # Python dependency list
 ```
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 This tool is created for **educational purposes and legal security testing** (Penetration Testing) only. Any illegal use of this tool is the sole responsibility of the user.
